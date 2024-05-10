@@ -32,7 +32,7 @@ NodeJs
     npm install 
     npm run prod
 
-Larave # IMPORTANT!! (first create a laravel database before running!)
+Larave # IMPORTANT!! (first run XAMPP control and create a named "laravel" database before running!)
 
     php artisan migrate
     php artisan storage:link
