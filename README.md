@@ -1,6 +1,6 @@
-# Disertation2
+# Disertation Project
 
-##Applications
+# Applications:
 
 Composer:
     [Composer Exe installer](https://getcomposer.org/Composer-Setup.exe)
@@ -18,11 +18,21 @@ Git:
     [Git Downloads Page](https://git-scm.com/downloads)
     
 
-#Installation Process
+# Installation Process:
 
+## Git clone the project using cmd or powershell on Desktop or any folder.
+    git clone https://github.com/mariananghel05/Disertation2
 
-npm install 
-npm run prod
+## Run following commands in order to setup the project!
+Composer 
 
-php artisan migrate
-php artisan storage:link
+    composer install
+NodeJs
+    
+    npm install 
+    npm run prod
+
+Larave
+
+    php artisan migrate
+    php artisan storage:link
